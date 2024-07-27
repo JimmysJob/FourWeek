@@ -1,4 +1,122 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+/* footer style */
+
+.footer {
+  background-color: #aa0601;
+  padding: 0 0 32px 0;
+}
+
+.footer-content {
+  border-bottom: 1px solid #fff;
+}
+
+.footer-left {
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.footer-list {
+  gap: 48px;
+}
+
+.footer-cellphone,
+.footer-mail {
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-cellphone a,
+.footer-mail a {
+  color: #fff;
+}
+
+.footer-cellphone img,
+.footer-mail img {
+  width: 48px;
+}
+
+.footer-list a {
+  color: #fff;
+}
+
+.footer-list a:hover {
+  color: #000;
+}
+
+.footer-right {
+  padding-top: 48px;
+}
+
+.footer-right img {
+  width: 48px;
+}
+
+.footer-nav {
+  gap: 32px;
+}
+
+.footer-bottom {
+  padding-top: 32px;
+}
+
+.footer-bottom p {
+  color: #fff;
+}
+
+.footer-bottom-list {
+  gap: 48px;
+}
+
+.footer-bottom-list a {
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-bottom-list a:hover {
+  color: #650300;
+}
+
+/* footer media */
+
+@media (max-width: 767px) {
+  .footer-list {
+    display: none;
+  }
+  .footer-cellphone img,
+  .footer-mail img {
+    width: 24px;
+  }
+  .footer-cellphone p,
+  .footer-mail p {
+    font-size: 16px;
+  }
+  .footer-mail {
+    margin-bottom: 24px;
+  }
+  .footer-left {
+    padding: 0;
+  }
+  .footer {
+    padding: 24px 0;
+  }
+  .footer-right {
+    padding: 0;
+  }
+  .footer-right img {
+    width: 24px;
+  }
+  .footer-nav {
+    gap: 8px;
+  }
+  .footer-bottom {
+    padding-top: 16px;
+    flex-direction: column;
+  }
+  .footer-bottom p {
+    margin-bottom: 8px;
+  }
+  .footer-bottom-list {
+    flex-direction: column;
+    gap: 8px;
+  }
 }

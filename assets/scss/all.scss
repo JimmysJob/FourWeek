@@ -1,5 +1,8 @@
+@import './helpers/varibles';
+@import './base/reset.scss';
+
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-
 @import './pages/index.scss';
+@import './pages/optical.scss';
