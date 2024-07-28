@@ -1,0 +1,42 @@
+.title {
+  &-list {
+    .title-list-border {
+      border-bottom: 8px solid $thirdary;
+    }
+    li {
+      width: 33.3333%;
+      text-align: center;
+      border: 1px solid #dcdcdc;
+      &:hover {
+        border-bottom: 8px solid $thirdary;
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-weight: 700;
+        padding: 24px 0;
+        font-size: 32px;
+        color: $secondary;
+      }
+    }
+  }
+  &-img {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 0;
+    }
+    .title-list li a {
+      font-size: 24px;
+      padding: 16px 48px;
+    }
+  }
+  @media (max-width: 576px) {
+    .title-list li a {
+      font-size: 16px;
+      padding: 16px 13px;
+    }
+  }
+}
