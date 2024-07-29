@@ -1,6 +1,6 @@
-.title {
+.title2 {
   &-list {
-    .title-list-border {
+    .title2-list-border {
       border-bottom: 8px solid $thirdary;
     }
     li {
@@ -28,20 +28,20 @@
     .container {
       padding: 0;
     }
-    .title-list li a {
+    .title2-list li a {
       font-size: 24px;
       padding: 16px 48px;
     }
   }
   @media (max-width: 576px) {
-    .title-list li a {
+    .title2-list li a {
       font-size: 16px;
       padding: 16px 13px;
     }
   }
 }
 
-.product {
+.product2 {
   padding: 80px 0;
   &-title {
     text-align: center;
@@ -59,7 +59,7 @@
   }
   &-list {
     .column {
-      width: 25%;
+      width: 33.3333%;
       padding: 0 12px;
       margin-bottom: 80px;
     }
