@@ -1,5 +1,6 @@
 //共通樣式
 @import './helpers/varibles';
+@import './helpers/mixins';
 
 //第三方套件
 /* Engish font */
@@ -16,5 +17,5 @@
 
 //pages
 @import './pages/optical.scss';
-@import './pages/opticals.scss';
+@import './pages/sunglasses.scss';
 @import './pages/index.scss';
