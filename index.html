@@ -8,20 +8,19 @@
   <title>FrontPage</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
-  <script type="module" crossorigin src="/FourWeek/assets/main-873fa1e4.js"></script>
-  <link rel="stylesheet" href="/FourWeek/assets/main-1d1645ce.css">
+  <script type="module" crossorigin src="/FourWeek/assets/main-7dee4cbc.js"></script>
+  <link rel="stylesheet" href="/FourWeek/assets/main-3bbd5a81.css">
 </head>
 
 <body>
   <nav class="nav">
-  <div class="container d-flex ai-center jc-sb">
+  <div class="nav-container container nav-rwd d-flex ai-center jc-sb">
     <div class="nav-title">
       <h1><a href="index.html"><img src="/FourWeek/assets/logo-white-5423463a.png" alt="title" width="80"></a></h1>
     </div>
-
     <ul class="nav-list d-flex fs-1">
       <li><a href="optical.html">系列鏡框</a></li>
-      <li><a href="#">門市據點</a></li>
+      <li><a href="store.html">門市據點</a></li>
       <li><a href="#">部落格</a></li>
       <li><a href="#">常見問題</a></li>
     </ul>
@@ -35,65 +34,57 @@
         </div>
       </div>
     </header>
-
     <main class="main py-10">
       <div class="container">
         <div class="main-title">
           <h2 class="fs-4 mb-6">用專業的心，做專業的事</h2>
         </div>
-        <div class="row d-flex fw-w">
-          <div class="col-3 col-sm-12">
-            <div class="card d-flex">
-              <div class="card-img mb-4">
-                <img src="./week3-4/home-section2-1.png" alt="money">
-              </div>
-              <h3 class="mb-2 fs-2">單一價格</h3>
-              <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+        <ul class="row main-list d-flex fw-w">
+          <li class="col-3 col-md-6 col-sm-12">
+            <div class="card-img mb-4 ta-c">
+              <img src="data:image/png;base64,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" alt="money" width="100px" height="100px">
             </div>
-          </div>
-          <div class="col-3 col-sm-12">
-            <div class="card d-flex">
-              <div class="card-img mb-4">
-                <img src="./week3-4/home-section2-2.png" alt="time">
-              </div>
-              <h3 class="mb-2 fs-2">20 分鐘即可取件</h3>
-              <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            <h3 class="mb-2 fs-2 ta-c">單一價格</h3>
+            <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+          </li>
+          <li class="col-3 col-md-6 col-sm-12">
+            <div class="card-img mb-4 ta-c">
+              <img src="data:image/png;base64,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" alt="time" width="100px" height="100px">
             </div>
-          </div>
-          <div class="col-3 col-sm-12">
-            <div class="card d-flex">
-              <div class="card-img mb-4">
-                <img src="./week3-4/home-section2-3.png" alt="heart">
-              </div>
-              <h3 class="mb-2 fs-2">安心售後服務</h3>
-              <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            <h3 class="mb-2 fs-2 ta-c">20 分鐘即可取件</h3>
+            <p>為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+          </li>
+          <li class="col-3 col-md-6 col-sm-12">
+            <div class="card-img mb-4 ta-c">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAC4lBMVEUAAABbAABiAABkAwBkAgBlAwBkAwBkAgBlAgBlAgBlAwBlAgBlAgBkAgBkAgBlAwBkAgBjAgBkAABpAABjAABlAABlAgBlAgBkAgBlAwBkAwBkAgBlAwBkAABiAABkAABmAgBkAgBkAgBlAgBkAwBmAABhAABkAwBkAgBkAgBlAgBkAgBjAABmAABkAgBkAgBkAwBlAgBlAABjAABkAgBlAgBiAABmAABlAgBmAABlAgBlAgBjAgBqAABlAgBlAgBlAgBiAABmAABkAgBkAgBkAgBkAgBlAgBkAgBkAABhAABlAgBlAgBjAwBeAABkAgBlAgBlAgBmAABlAABkAwBkAgBlAwBlAgBkAwBkAABlAgBlAgBmAABlAABkAwBlAABjAwBlAgBlAgBmAABlAgBVAABlAwBjAABlAABmAABlAgBjAABmAABkAgBkAgBlAABkAABjAABlAgBjAABlAABkAgBlAgBkAgBlAABkAgBlAgBkAwBkAgBiAABmAABkAwBlAgBjAABhAABlAwBlAgBkAgBkAwBkAABkAABkAgBmAgBlAAAAAABlAgBkAgBkAABgAABiAABkAgBgAABlAwBkAgBkAABlAwBkAwBmAABkAgBkAABkAgBlAgBjAABlAwBlAgBVAABmAABkAwBlAgBgAABkAgBkAgBlAwBkAgBlAgBlAgBkAwBlAgBlAwBkAgBkAgBkAwBkAwBlAABjAABkAgBlAgBlAwBlAwBjAABdAABkAABlAgBkAgBlAwBjAwBlAgBlAgCAAABkAgBlAwBmAABkAgBkAgBtAABkAgBkAgBlAABlAABkAwBlAgBjAABkAgBlAgBoAABkAwBkAgBlAwBlAwBlAgBkAgBlAgBkAgBAAABjAABkAgBkAgBkAABkAwBoAABVAABlAgBkAgBlAwBlAwBkAABoAABiAABgAABkAwBlAwBlAgBkAgBkAgBlAgBjAwBkAgBlAgBkAgBlAgDPQDuBAAAA9nRSTlMADjljjLbL2Obz//Xp3dHDo3FCERJEdKTlyrWKYjgNLmeh4qlhFBWt49afZiw3kujHfisxgo40D98Kzdp2DIjxkyIomfTteIOXFx3ud1UTj/jcRia/7F1tsBxq9hlRt0xf8KIylQmsJDoe1EtB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" alt="heart" width="100px" height="100px">
             </div>
-          </div>
-          <div class="col-3 col-sm-12">
-            <div class="card d-flex">
-              <div class="card-img mb-4">
-                <img src="./week3-4/home-sectioin2-4.png" alt="eyes">
-              </div>
-              <h3 class="mb-2 fs-2">關於鏡片</h3>
-              <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            <h3 class="mb-2 fs-2 ta-c">安心售後服務</h3>
+            <p>我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+          </li>
+          <li class="col-3 col-md-6 col-sm-12">
+            <div class="card-img mb-4 ta-c">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAV1BMVEUAAABlAABjAwBkAgBlAwBkAwBkAgBlAwBlAgBlAgBlAABkAgBlAgBkAABoAABlAgBgAABkAABjAABlAwBkAgBkAgBlAwBlAgBkAgBkAwBlAgBkAgBlAgCl0rvaAAAAHXRSTlMAP19/r7/v/8+fMI9vTyDfEEBQYHDgwPCgsJCA0ECzS0YAAAUESURBVHgB7MHBAQMQFAUw+j2w/8C1QI+9JWkAAAAAAAAAAADwE/1TI5nr2cmpftvf3F4n2euZyagv9fa2nDqvAwBYbYMFBhI5TmKH5P2fc6/VmXWlCNnCs3/4LjuMWh18SId8f7VK4npGznU3D835W+eQO19fTubeocxdfdMsrg5l3R3M+otDxXAjaIJuAyrcpQeL0GEJ90MN0vhxWOISoJY/oa5RKsRnSnTylaGxhvuGF3w7rHElU2h7oeytV7gRylCH9VwEkxsaXAgK+AFNOh7dXjPF4EEVkbNHt9dMEe2t1jlfmYdDuxs8dUGdcRkyo8NXXOx52Dtun2FbJhd8mYdCAXXWTCZ8nfPW9WEw2Xo9L7+SkkkPBXolj7T8mi2T7FE25+jhHwrTirIzFDijbJ0CwT8+5rlukmlAQcoemCjn8gDVQ84iAuNzQsHAT+FOakYkYToyCkZQjCjIwlzSNGsLXlkgaQNZL3TFETxFTuhGD7ItFVWNXEFoLsx4JMNTGY/MATi9bI4KhnYCDR1HD/UnyEqgmfQl6fFA8lBgqt65zkLNdD5pO9cJud2/cNWIls/r/I7c6XmzdwKwZzKAaJDz0NH+dJBXw1wpmUT7h/XpkvaWXhk81aa0RGnIBhU8cr28HU5QZZH7rW9ZC1SZ5JY4vhdCHUpScP0MSQR1+EJw0oUh9VBpkoLrh3qESn0SjvdVGVrjcMWypb5AtU2YIH5ZgHpBCK6ORYB6/GJ0/CdEMFiKZsvxhhhMh+V4WFYfN5bs4F6/8tv2lu3o6pPBJBVs4ROfYpN8dLlTKlnsUbBIVv1p0ngqAoRGReKBBmAGpWj25R4gNpqsg9bqH0lglPkGtfEfGa1quYM2ffZ76qb/evs5Nao72wZGnpdk0QfCXKXqVO1zvLBEZrAK9YkEsJpZIo79xKqvT4TAiNXfHfTIrD4RaJYItk1ECbV8aCJsc13fIJH3H625WSK+PpG+WSI7X/6fsf069RxBAqOJ3+P1TxgRXxG5WZUeaqRgv8VrkTJszap0VlcAW0XnZt3f2t1IyXCNR2q1aQXwyu+3P7TvwOzGW6NeNA+QTA8ktsfY3Kj98egJbW0TnLCgILHFbEl/84RNjqmtJAyf463JPRunw+C5xQmFc8ljBA72J3b2WJuMLVGG5lF01mBs0ZAkBO+gFrnjIumz5QhqdULRPDLB3mzlkTnpndMEZLwwuDiQObayireXq0YDSifWhEz36mBhr8y3ebg6ZCb2z23bjYvOyGTlCDDfuCZkErF+23aTC3KhYgrxYtwd2RRTMmci5LGAaDFnIuSRiC9BQyZ0qfyOZkB7JhHlhsgtwR/j+kDM2lbNnAl0Pyg0REkVT2r04NTYTJ/wgAugoBMeiXxyOXczjJW65U2mdxBuDjm+Gj0eOwU9tBabWerfpwlnPJQ8L5PgdK98LSr1oOhT5VtO9xMKonxScY69Bkj3DkUjqEYUdXdiL0I6lGTgaMYn/r6h+Vtp/3Vjb1jWXwIf+MT5evvyv537+0YqPjGT8p2uD8AWyAdnkrwyup8iKFeATxHhCZ8+a64+P5PkQdHv+AH23rDHv6EHFBkTvrU0QiHK+MYyQbmw45vaA9SJM76hOUK9OH9oGlzICd9GygFeENe3yCWtEV7mp3XG/9C8Th6a8eP2x/J/tf0x2nNQ/a89OBAAAAAAEORvPcgVAAAAAAAAAAAAAMBcmHYgr9LxNRIAAAAASUVORK5CYII=" alt="eyes" width="100px" height="100px">
             </div>
-          </div>
-        </div>
+            <h3 class="mb-2 fs-2 ta-c">關於鏡片</h3>
+            <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+          </li>
+        </ul>
+      </div>
     </main>
     <section class="section py-10">
       <div class="container">
         <h2 class="fs-4 mb-12">經典系列鏡框</h2>
-        <ul class="row d-flex fw-w">
-          <li class="section-card fs-4 col-4 col-sm-12">
-            <div><img class="mb-2" src="./week3-4/home-section3-1.png" alt=""></div>
+        <ul class="section-list row d-flex fw-w">
+          <li class="fs-4 col-4">
+            <div><img class="mb-2" src="/FourWeek/assets/home-section3-1-bb26ab65.png" alt="section"></div>
             <h3>OPTICAL</h3>
           </li>
-          <li class="section-card fs-4 col-4 col-sm-12">
-            <img class="mb-2" src="./week3-4/home-section3-2.png" alt="">
+          <li class="fs-4 col-4">
+            <div><img class="mb-2" src="/FourWeek/assets/home-section3-2-38fdd6aa.png" alt="section"></div>
             <h3>SUNGLASSES</h3>
           </li>
-          <li class="section-card fs-4 col-4 col-sm-12">
-            <img class="mb-2" src="./week3-4/home-section3-3.png" alt="">
+          <li class="fs-4 col-4">
+            <div><img class="mb-2" src="/FourWeek/assets/home-section3-3-52db7b9d.png" alt="section"></div>
             <h3>FUNCTIONAL</h3>
           </li>
         </ul>
@@ -104,11 +95,11 @@
         <h2 class="fs-4">聯名設計鏡框</h2>
         <ul class="section2-list d-flex fw-w">
           <li>
-            <img src="./week3-4/home-section4-1.png" alt="black">
+            <img src="/FourWeek/assets/home-section4-1-59894574.png" alt="black">
             <h3 class="fs-4">DOUBLE A+</h3>
           </li>
           <li>
-            <img src="./week3-4/home-section4-2.png" alt="pink">
+            <img src="/FourWeek/assets/home-section4-2-daaeb8bc.png" alt="pink">
             <h3 class="fs-4">YOUTH</h3>
           </li>
         </ul>
@@ -117,37 +108,37 @@
     <section class="section3 py-10">
       <div class="container">
         <h2 class="fs-4 mb-12">顧客推薦</h2>
-        <ul class="row d-flex fw-w section3-card">
-          <li class="col-3 col-sm-12">
-            <img src="./week3-4/home-section5-1.png" alt="">
-            <div class="section3-card-text card-shadow">
+        <ul class="row section3-card d-flex fw-w">
+          <li class="col-3">
+            <img src="/FourWeek/assets/home-section5-1-75717951.png" alt="">
+            <div class="section3-card-text card-shadow d-flex">
               <h4 class="mb-2">Jessy</h4>
-              <p class="mb-18">眼鏡品質優良，下次還會想來這邊購買！</p>
-              <span>2021/06/20</span>
+              <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+              <time datetime="2021/06/20">2021/06/20</time>
             </div>
           </li>
-          <li class="col-3 col-sm-12">
-            <img src="./week3-4/home-section5-2.png" alt="">
-            <div class="section3-card-text card-shadow">
+          <li class="col-3">
+            <img src="/FourWeek/assets/home-section5-2-bf28c8b7.png" alt="">
+            <div class="section3-card-text card-shadow d-flex">
               <h4 class="mb-2">凱倫</h4>
-              <p class="mb-18">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
-              <span>2021/04/18</span>
+              <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+              <time datetime="2021/04/18">2021/04/18</time>
             </div>
           </li>
-          <li class="col-3 col-sm-12">
-            <img src="./week3-4/home-section5-3.png" alt="">
-            <div class="section3-card-text card-shadow">
+          <li class="col-3">
+            <img src="/FourWeek/assets/home-section5-3-978a0702.png" alt="">
+            <div class="section3-card-text card-shadow d-flex">
               <h4 class="mb-2">悠悠</h4>
-              <p class="mb-18">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
-              <span>2020/12/25</span>
+              <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+              <time datetime="2020/12/25">2020/12/25</time>
             </div>
           </li>
-          <li class="col-3 col-sm-12">
-            <img src="./week3-4/home-section5-4.png" alt="">
-            <div class="section3-card-text card-shadow">
+          <li class="col-3">
+            <img src="/FourWeek/assets/home-section5-4-cc3480ec.png" alt="">
+            <div class="section3-card-text card-shadow d-flex">
               <h4 class="mb-2">Kyuan</h4>
-              <p class="mb-18">服務很好，品質沒有任何問題，非常喜歡。</p>
-              <span>2020/10/31</span>
+              <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+              <time datetime="2020/10/31">2020/10/31</time>
             </div>
           </li>
         </ul>
@@ -193,17 +184,17 @@
         <ul class="footer-list d-flex mb-10">
           <li><a href="index.html">首頁</a></li>
           <li><a href="optical.html">系列鏡框</a></li>
-          <li><a href="#">門市據點</a></li>
+          <li><a href="store.html">門市據點</a></li>
           <li><a href="#">部落格</a></li>
           <li><a href="#">常見問題</a></li>
         </ul>
-        <div class="footer-cellphone d-flex mb-2">
-          <a href="#"><img src="data:image/png;base64,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" alt="call"></a>
-          <p class="fs-3"><a href="#">0800-000-000</a></p>
+        <div class="footer-cellphone mb-2">
+          <a class="fs-3" href="tel:0800-000-000"><img
+              src="data:image/png;base64,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" alt="call">0800-000-000</a>
         </div>
-        <div class="footer-mail mb-8 d-flex">
-          <a href="#"><img src="data:image/png;base64,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" alt="mail"></a>
-          <p class="fs-3"><a href="#">glasses@business.com</a></p>
+        <div class="footer-mail mb-8">
+          <a class="fs-3" href="mailto:glasses@business.com"><img
+              src="data:image/png;base64,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" alt="mail">glasses@business.com</a>
         </div>
       </div>
       <div class="footer-right">
