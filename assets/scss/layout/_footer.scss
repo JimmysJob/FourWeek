@@ -1,7 +1,7 @@
 .footer {
   background-color: $thirdary;
   padding: 0 0 32px 0;
-  @include max-footer-sm {
+  @include max-md {
     padding: 24px 0;
   }
   &-content {
@@ -12,7 +12,7 @@
     padding-top: 60px;
   }
   &-list {
-    @include max-footer-sm {
+    @include max-md {
       display: none;
     }
     gap: 48px;
@@ -27,31 +27,31 @@
   &-mail {
     a {
       color: #fff;
-      @include max-footer-sm {
+      @include max-md {
         font-size: 16px;
       }
     }
     img {
       width: 48px;
       margin-right: 16px;
-      @include max-footer-sm {
+      @include max-md {
         width: 24px;
       }
     }
   }
   &-mail {
-    @include max-footer-sm {
+    @include max-md {
       margin-bottom: 24px;
     }
   }
   &-left {
-    @include max-footer-sm {
+    @include max-md {
       padding: 0;
     }
   }
   &-right {
     padding-top: 48px;
-    @include max-footer-sm {
+    @include max-md {
       padding: 0;
     }
     img {
@@ -59,32 +59,32 @@
       @include max-md {
         width: 40px;
       }
-      @include max-footer-sm {
+      @include max-md {
         width: 24px;
       }
     }
   }
   &-nav {
     gap: 32px;
-    @include max-footer-sm {
+    @include max-md {
       gap: 8px;
     }
   }
   &-bottom {
     padding-top: 32px;
-    @include max-footer-sm {
+    @include max-md {
       padding-top: 16px;
       flex-direction: column;
     }
     p {
       color: #fff;
-      @include max-footer-sm {
+      @include max-md {
         margin-bottom: 8px;
       }
     }
     .footer-bottom-list {
       gap: 48px;
-      @include max-footer-sm {
+      @include max-md {
         gap: 8px;
         flex-direction: column;
       }
